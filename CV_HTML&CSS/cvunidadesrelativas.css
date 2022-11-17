@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Quicksand-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+body {
+    height: 100vh;
+    width: 50vw;
+}
+
+.flex-container {
+    position: relative;
+    height: 109rem;
+    width: 97rem;
+    background-image: url(../17-04-04-15-30-29-097_photo.jpg);
+    opacity: 85%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c1 {
+    position: absolute;
+    background-color: rgb(255, 221, 133);
+    opacity: 80%;
+    height: 92rem;
+    width: 77rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    display: flex;
+}
+
+.c2 {
+    position: absolute;
+    background-image: url(../fotocv.jpg);
+    height: 20rem;
+    width: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-left: 12rem;
+    margin-top: 12rem;
+    display: flex;
+}
+
+.titulo {
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    height: 5rem;
+    width: 33rem;
+    font-size: 2em;
+    font-family: "Quicksand";
+    color: white;
+    line-height: 1rem;
+    justify-content: center;
+    display: flex; 
+}
+
+.c3 {
+    position: absolute;
+    height: 10rem;
+    width: 70rem;
+    font-size: 4em;
+    color: rgb(31, 31, 31);
+    margin-left: 34rem;
+    margin-top: 13rem;
+    text-align: right;
+    display: flex;
+}
+
+.c4 {
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    height: 7rem;
+    width: 53rem;
+    font-size: 2em;
+    font-family: "Quicksand";
+    color: white;
+    line-height: 2rem;
+    margin-left: 34rem;
+    margin-top: 30rem;
+    justify-content: center;
+    display: flex;
+}
+.c5 {
+    margin-top: 43rem;
+    display: flex;
+}
+
+.c6 {
+    margin-top: 63rem;
+    display: flex;
+
+}
+
+.c7 {
+    margin-top: 83rem;
+    display: flex;
+}
+
+.c8 {
+    position: absolute; 
+    background-color: white;
+    width: 40rem; 
+    font-size: 2em;
+    font-family: "Quicksand";
+    color: rgb(46, 46, 46);
+    margin-top: 43rem; 
+    margin-left: 57rem;
+    justify-content: center;
+    line-height: 1rem;
+    display: flex; 
+}
+
+
+.contenido {
+    position: absolute;
+    height: 15rem;
+    width: 21rem;
+    font-size: 1.56rem;
+    font-family: "Quicksand";
+    font-weight: bold; 
+    color: rgb(20, 20, 20);
+    margin-left: 12rem;  
+    display: flex;
+}
+
+.co1 {
+    line-height: 1rem;
+    margin-top: 50rem;
+    font-weight: 900px; 
+}
+
+.co2 {
+    line-height: 1rem;
+    margin-top: 68rem;
+    font-weight: 900px; 
+}
+
+.co3 {
+    line-height: 1rem;
+    margin-top:90rem;
+    font-weight: 900px; 
+}
+
+.co4 {
+    position: absolute;
+    font-size: 1.8rem; 
+    margin-top: 50rem;
+    margin-left: 35rem; 
+    height: 40rem; 
+    width: 53rem; 
+    font-weight:900px;  
+    text-align: center;
+    display: flex; 
+}
+
+.msg { 
+    position: absolute; 
+    background-image:url(../iconos/mail.png);
+    height: 5rem;
+    width: 5rem; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 43rem;
+    margin-left: 2rem;
+    display:flex;
+}
+
+.light {
+    position: absolute; 
+    background-image:url(../iconos/lightbulb.png);
+    height: 5rem;
+    width: 5rem; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 63rem;
+    margin-left: 2rem;
+    display:flex;
+
+}
+
+.speak {
+    position: absolute; 
+    background-image:url(../iconos/speaker.png);
+    height: 5rem;
+    width: 5rem; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 83rem;
+    margin-left: 2rem;
+    display:flex;
+}
+
+.book { 
+    position: absolute; 
+    background-image:url(../iconos/book.png);
+    height: 5rem;
+    width: 5rem; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 43rem;
+    margin-left: 90rem;
+    display:flex;
+}
+
+ul { 
+    list-style-type: none; 
+}
